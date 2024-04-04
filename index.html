@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodhub</title>
+
+    <!--
+    - custom css link 
+  -->
+    <link rel="stylesheet" href="./assets/css/foodhub.css" />
+    <link rel="stylesheet" href="./assets/css/media_query.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - main container
+  -->
+
+    <div class="container">
+      <!--
+      - #HEADER
+    -->
+
+      <header>
+        <nav class="navbar">
+          <div class="navbar-wrapper">
+            <a href="#">
+              <img src="./assets/images/logo.svg" alt="logo" width="130" />
+            </a>
+
+            <ul class="navbar-nav">
+              <li>
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+
+              <li>
+                <a href="#about" class="nav-link">About</a>
+              </li>
+
+              <li>
+                <a href="#services" class="nav-link">Services</a>
+              </li>
+
+              <li>
+                <a href="#menu" class="nav-link">Our Menu</a>
+              </li>
+
+              <li>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+              </li>
+            </ul>
+
+            <!-- <div class="navbar-btn-group">
+              <button class="shopping-cart-btn">
+                <img
+                  src="./assets/images/cart.svg"
+                  alt="shopping cart icon"
+                  width="18"
+                />
+                <span class="count">5</span>
+              </button>
+
+              <button class="menu-toggle-btn">
+                <span class="line one"></span>
+                <span class="line two"></span>
+                <span class="line three"></span>
+              </button>
+            </div> -->
+          </div>
+        </nav>
+
+        <div class="cart-box">
+          <ul class="cart-box-ul">
+            <h4 class="cart-h4">Your order.</h4>
+
+            <li>
+              <a href="#" class="cart-item">
+                <div class="img-box">
+                  <img
+                    src="./assets/images/menu1.jpg"
+                    alt="product image"
+                    class="product-img"
+                    width="50"
+                    height="50"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h5 class="product-name">Saumon gravlax</h5>
+                <p class="product-price"><span class="small">$</span>9</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="cart-item">
+                <div class="img-box">
+                  <img
+                    src="./assets/images/menu2.jpg"
+                    alt="product image"
+                    class="product-img"
+                    width="50"
+                    height="50"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h5 class="product-name">Chevrefried with honey</h5>
+                <p class="product-price"><span class="small">$</span>14</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="cart-item">
+                <div class="img-box">
+                  <img
+                    src="./assets/images/menu3.jpg"
+                    alt="product image"
+                    class="product-img"
+                    width="50"
+                    height="50"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h5 class="product-name">Crispy fish</h5>
+                <p class="product-price"><span class="small">$</span>4</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="cart-item">
+                <div class="img-box">
+                  <img
+                    src="./assets/images/menu4.jpg"
+                    alt="product image"
+                    class="product-img"
+                    width="50"
+                    height="50"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h5 class="product-name">Stracciatella</h5>
+                <p class="product-price"><span class="small">$</span>11</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="cart-item">
+                <div class="img-box">
+                  <img
+                    src="./assets/images/menu5.jpg"
+                    alt="product image"
+                    class="product-img"
+                    width="50"
+                    height="50"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h5 class="product-name">Sea bream carpaccio</h5>
+                <p class="product-price"><span class="small">$</span>19</p>
+              </a>
+            </li>
+          </ul>
+
+          <div class="cart-btn-group">
+            <button class="btn btn-secondary">View order</button>
+            <button class="btn btn-primary">Checkout</button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <!--
+        - #HOME SECTION
+      -->
+
+        <section class="home" id="home">
+          <div class="home-left">
+            <h1 class="home-subtext">Hai, kawan awakkk</h1>
+
+            <h1 class="main-heading">
+              Nikmati perjalanan rasa di setiap sajian kami!
+            </h1>
+
+            <p class="home-text">
+              Consectetur numquam poro nemo veniam eligendi rem adipisci quo
+              modi
+            </p>
+
+            <!-- <div class="btn-group">
+              <button class="btn btn-primary btn-icon">
+                <img src="./assets/images/menu.svg" alt="menu icon" id="menu" />
+                Our menu
+              </button>
+
+              <button class="btn btn-secondary btn-icon">
+                <img src="./assets/images/arrow.svg" alt="menu icon" />
+                About us
+              </button>
+            </div> -->
+          </div>
+
+          <div class="home-right">
+            <img
+              src="./assets/images/food1.png"
+              alt="food image"
+              class="food-img food-1"
+              width="200"
+              loading="lazy"
+            />
+            <img
+              src="./assets/images/food2.png"
+              alt="food image"
+              class="food-img food-2"
+              width="200"
+              loading="lazy"
+            />
+            <img
+              src="./assets/images/food3.png"
+              alt="food image"
+              class="food-img food-3"
+              width="200"
+              loading="lazy"
+            />
+
+            <img
+              src="./assets/images/dialog-1.svg"
+              alt="dialog"
+              class="dialog dialog-1"
+              width="230"
+            />
+            <img
+              src="./assets/images/dialog-2.svg"
+              alt="dialog"
+              class="dialog dialog-2"
+              width="230"
+            />
+
+            <img
+              src="./assets/images/circle.svg"
+              alt="circle shape"
+              class="shape shape-1"
+              width="25"
+            />
+            <img
+              src="./assets/images/circle.svg"
+              alt="circle shape"
+              class="shape shape-2"
+              width="15"
+            />
+            <img
+              src="./assets/images/circle.svg"
+              alt="circle shape"
+              class="shape shape-3"
+              width="30"
+            />
+            <img
+              src="./assets/images/ring.svg"
+              alt="ring shape"
+              class="shape shape-4"
+              width="60"
+            />
+            <img
+              src="./assets/images/ring.svg"
+              alt="ring shape"
+              class="shape shape-5"
+              width="40"
+            />
+          </div>
+        </section>
+
+        <!--
+        - #ABOUT SECTION
+      -->
+
+        <section class="about" id="about">
+          <div class="about-left">
+            <div class="img-box">
+              <img
+                src="./assets/Appetizer/Appetizer-3.jpeg"
+                alt="about image"
+                class="about-img"
+                width="250"
+              />
+            </div>
+
+            <div class="abs-content-box">
+              <div class="dotted-border">
+                <p class="number-lg">YTTA</p>
+                <p class="text-md">
+                  COMING <br />
+                  SOON
+                </p>
+              </div>
+            </div>
+
+            <img
+              src="./assets/Appetizer/Appetizer-3.jpeg"
+              alt="circle shape"
+              class="shape shape-6"
+              width="20"
+            />
+            <img
+              src="./assets/Appetizer/Appetizer-11.jpeg"
+              alt="circle shape"
+              class="shape shape-7"
+              width="30"
+            />
+            <img
+              src="./assets/Appetizer/Appetizer-13.jpeg"
+              alt="ring shape"
+              class="shape shape-8"
+              width="35"
+            />
+            <img
+              src="./assets/Appetizer/Appetizer-12.jpeg"
+              alt="ring shape"
+              class="shape shape-9"
+              width="80"
+            />
+          </div>
+
+          <div class="about-right">
+            <h2 class="section-title">Di sini, kami melampaui Harapan Anda</h2>
+
+            <p class="section-text">
+              Selamat datang di dunia kuliner di mana setiap hidangan adalah
+              sebuah petualangan yang menggugah selera. Kami tidak sekadar
+              menyajikan makanan; kami menciptakan pengalaman yang mengubah cara
+              Anda melihat dan merasakan rasa. Di sini, di tempat kami, Anda
+              akan menemukan harmoni cita rasa yang dipadukan dengan sentuhan
+              kreativitas yang memukau. Dari hidangan-hidangan klasik hingga
+              inovasi kuliner terbaru, setiap suapan menggoda dan memanjakan
+              indera Anda dengan keunikan dan kelezatan yang tak terlupakan.
+            </p>
+
+            <p class="section-text">
+              Di sini, Anda akan menemukan lebih dari sekadar makanan; Anda akan
+              menemukan cerita di setiap piring, dan kenangan yang tak
+              terlupakan di setiap suapan. Bersama kami, nikmati perjalanan rasa
+              yang tak tertandingi dan temukan kepuasan yang sejati dalam setiap
+              detik di meja makan Anda. Selamat datang di tempat di mana kami
+              melampaui harapan, selamat datang di dunia kami yang penuh dengan
+              cita rasa yang memukau.
+            </p>
+
+            <!-- <img
+              src="./assets/images/signature.png"
+              alt="signature"
+              class="signature"
+              width="150"
+            /> -->
+          </div>
+        </section>
+
+        <!--
+        - #SERVICES SECTION
+      -->
+
+        <section class="services" id="services">
+          <div class="service-card">
+            <p class="card-number">01</p>
+
+            <h3 class="card-heading">Kami berada dimana Anda berada</h3>
+
+            <p class="card-text">
+              Kami berada di tempat di mana Anda berada - menyediakan layanan
+              yang nyaman dan mudah diakses bagi Anda.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <p class="card-number">02</p>
+
+            <h3 class="card-heading">Bahan-Bahan Pilihan dan Berkualitas</h3>
+
+            <p class="card-text">
+              Kami menghadirkan bahan-bahan pilihan dan berkualitas tinggi untuk
+              memastikan setiap hidangan kami memberikan pengalaman kuliner yang
+              luar biasa.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <p class="card-number">03</p>
+
+            <h3 class="card-heading">
+              Diantar Dengan Tepat Waktu Ke Lokasi Anda
+            </h3>
+
+            <p class="card-text">
+              Kami menyediakan layanan pengantaran tepat waktu ke lokasi Anda,
+              memastikan kenyamanan dan kepuasan pelanggan kami terjaga.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <p class="card-number">04</p>
+
+            <h3 class="card-heading">Dimasak dengan Sepenuh Hati</h3>
+
+            <p class="card-text">
+              Setiap hidangan kami dimasak dengan sepenuh hati, menciptakan rasa
+              yang autentik dan memuaskan untuk dinikmati oleh setiap pelanggan
+              kami.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <p class="card-number">05</p>
+
+            <h3 class="card-heading">
+              Terbaik di antara yang terbaik, pokoknya!
+            </h3>
+
+            <p class="card-text">
+              Kami adalah standar emas dalam industri kami. Setiap langkah kami
+              dijalani dengan ketelitian dan keahlian, membuat kami tak
+              tertandingi. Dengan bangga kami menyatakan: "Terbaik di antara
+              yang terbaik, pokoknya!"
+            </p>
+          </div>
+        </section>
+
+        <!--
+        - #PRODUCT SECTION
+      -->
+
+        <section class="product" id="menu">
+          <h2 class="section-title">Appetizer</h2>
+
+          <p class="section-text">
+            Appetizer adalah pencipta suasana yang sempurna sebelum menu utama
+            dihidangkan. Dengan rasa yang menggoda dan presentasi yang memikat,
+            mereka membuka tirai untuk sebuah pengalaman kuliner yang tak
+            terlupakan
+          </p>
+
+          <div class="products-grid">
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-1.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Spinach spinwheels</h3>
+
+                    <p class="product-price"><span class="small"></span>67K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-2.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">French Fries</h3>
+
+                    <p class="product-price"><span class="small"></span>45K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-3.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+
+                  <div class="card-badge green">
+                    <ion-icon name="leaf"></ion-icon>
+                    <p>Vegan</p>
+                  </div>
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Sergue Potato</h3>
+
+                    <p class="product-price"><span class="small"></span>150K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-4.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+
+                  <div class="card-badge red">
+                    <ion-icon name="flame"></ion-icon>
+                    <p>Hot</p>
+                  </div>
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Canape</h3>
+
+                    <p class="product-price"><span class="small"></span>65K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-5.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+
+                  <div class="card-badge green">
+                    <ion-icon name="leaf"></ion-icon>
+                    <p>Vegan</p>
+                  </div>
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Tuna Tataki</h3>
+
+                    <p class="product-price"><span class="small"></span>75K</p>
+                  </div>
+
+                  <p class="product-text">
+                    Tuna Fish, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-6.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Fried Chicken Nuggets</h3>
+
+                    <p class="product-price"><span class="small"></span>80K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori,Chicken, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-7.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Colenak Kuah cinca</h3>
+
+                    <p class="product-price"><span class="small"></span>110K</p>
+                  </div>
+
+                  <p class="product-text">
+                    Cream Colenak, Fishtable, feta cheese, mushrooms, rice
+                    noodles, corn, shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-8.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Sushi</h3>
+
+                    <p class="product-price"><span class="small"></span>90K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-9.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Ciabbata Bread</h3>
+
+                    <p class="product-price"><span class="small">$</span>80K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, Bred, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-10.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Foccacia</h3>
+
+                    <p class="product-price"><span class="small"></span>95K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-11.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Chicken Fillet</h3>
+
+                    <p class="product-price"><span class="small"></span>75K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Appetizer/Appetizer-12.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Salads</h3>
+
+                    <p class="product-price"><span class="small"></span>75K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <h2 class="section-title">Dessert</h2>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-1.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Pie Fruit</h3>
+
+                    <p class="product-price"><span class="small"></span>140K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-2.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">All Donut Varian</h3>
+
+                    <p class="product-price"><span class="small"></span>55K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-3.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Cream Crepes</h3>
+
+                    <p class="product-price"><span class="small"></span>70K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-4.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Cream Caramel</h3>
+
+                    <p class="product-price"><span class="small"></span>64K</p>
+                  </div>
+
+                  <p class="product-text">
+                    tomatoes, nori, feta cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-5.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Chocolate Mousse Cake</h3>
+
+                    <p class="product-price"><span class="small"></span>97K</p>
+                  </div>
+
+                  <p class="product-text">
+                    Choclate, butter, feta cheese, mushrooms, rice noodles,
+                    corn, shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-6.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Cream Waffle</h3>
+
+                    <p class="product-price"><span class="small"></span>77K</p>
+                  </div>
+
+                  <p class="product-text">
+                    Waffle, Cream, cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-7.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Strawberry Cupcakes</h3>
+
+                    <p class="product-price"><span class="small"></span>30K</p>
+                  </div>
+
+                  <p class="product-text">
+                    Cake, Strawberry, Butter, Sugar, rice noodles, corn, shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-8.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Chocolate Brownies</h3>
+
+                    <p class="product-price"><span class="small"></span>80K</p>
+                  </div>
+
+                  <p class="product-text">
+                    Peanut, Chocolate, feta cheese, mushrooms, rice noodles,
+                    corn, shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-9.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Brownies Raspberry</h3>
+
+                    <p class="product-price"><span class="small"></span>90K</p>
+                  </div>
+
+                  <p class="product-text">
+                    Raspberry, cream, cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-10.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Pineapple Blackberry Pie</h3>
+
+                    <p class="product-price"><span class="small"></span>70K</p>
+                  </div>
+
+                  <p class="product-text">
+                    Pineapple, Cream, cheese, Butter, rice , Blackberry, shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-11.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Maccaron</h3>
+
+                    <p class="product-price"><span class="small"></span>78K</p>
+                  </div>
+
+                  <p class="product-text">
+                    Macaron, Butter, cheese, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-12.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Berry Cookies</h3>
+
+                    <p class="product-price"><span class="small"></span>45K</p>
+                  </div>
+
+                  <p class="product-text">
+                    Butter, fruit, Chicken feet, mushrooms, rice noodles, corn,
+                    shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-13.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Cheesecake Caramel</h3>
+
+                    <p class="product-price"><span class="small"></span>80K</p>
+                  </div>
+
+                  <p class="product-text">
+                    cheese, cake, feta , Sugar caramel, rice , corn, shrimp.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/Dessert/Dessert-14.jpeg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Cupcake Hazelnut</h3>
+
+                    <p class="product-price"><span class="small"></span>45K</p>
+                  </div>
+
+                  <p class="product-text">
+                    Hazelnut, Peanut, Butter, Flour , rice, Chocolate, cream
+                    cheese.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- <button class="btn btn-primary btn-icon">
+            <img src="./assets/images/menu.svg" alt="menu icon" />
+            Full menu
+          </button> -->
+        </section>
+
+        <!--
+        - #TESTIMONIALS SECTION
+      -->
+
+        <section class="testimonials" id="testimonials">
+          <h2 class="section-title">Tanggapan Pelanggan Tentang Restoran</h2>
+
+          <!-- <p class="section-text">
+            Consectetur numquam poro nemo veniam eligendi rem adipisci quo modi.
+          </p> -->
+
+          <div class="testimonials-grid">
+            <div class="testimonials-card">
+              <h4 class="card-title">Rekomendasi sekalii</h4>
+
+              <div class="testimonials-rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+
+              <p class="testimonials-text">
+                "Pengalaman kuliner di restoran ini sungguh luar biasa! Hidangan
+                yang dihadirkan tidak hanya lezat, tetapi juga dipersembahkan
+                dengan indah. Setiap suapan membangkitkan sensasi yang tak
+                terlupakan, dan stafnya sangat ramah dan profesional. Pasti akan
+                kembali lagi!"
+              </p>
+
+              <div class="customer-info">
+                <div class="customer-img-box">
+                  <img
+                    src="./assets/Testimoni/effandi-testimoni.png"
+                    alt="customer image"
+                    class="customer-img"
+                    width="100"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h5 class="customer-name">Effandi Sinuhaji</h5>
+              </div>
+            </div>
+
+            <div class="testimonials-card">
+              <h4 class="card-title">Enak Bangetttt</h4>
+
+              <div class="testimonials-rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+
+              <p class="testimonials-text">
+                "Saya benar-benar terkesan dengan variasi menu yang ditawarkan
+                oleh restoran ini. Setiap hidangan memiliki rasa yang unik dan
+                menggugah selera. Layanan yang sangat baik dan suasana yang
+                menyenangkan membuat makanan menjadi lebih nikmat. Sungguh
+                pengalaman yang menyenangkan dan memuaskan!"
+              </p>
+
+              <div class="customer-info">
+                <div class="customer-img-box">
+                  <img
+                    src="./assets/Testimoni/fiter-testimoni.png"
+                    alt="customer image"
+                    class="customer-img"
+                    width="100"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h5 class="customer-name">Fiter Ginting</h5>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!--
+      - #FOOTER
+    -->
+
+      <footer>
+        <div class="footer-wrapper">
+          <a href="#">
+            <img
+              src="./assets/images/logo-footer.svg"
+              alt="logo"
+              class="footer-brand"
+              width="130"
+            />
+          </a>
+
+          <div class="social-link">
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+
+            <a href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+            <a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+
+            <a href="#">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </div>
+
+          <p class="copyright">
+            &copy; Copyright 2024 YTTA. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/foodhub.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
